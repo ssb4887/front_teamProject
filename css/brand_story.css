@@ -1,0 +1,541 @@
+@charset "utf-8";
+
+#wrap {
+  width: 100%;
+}
+
+/* 상단(header) 부분----------------------------------------------------------------------------------------------------100 */
+/* 상단(header) 부분 */
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  float: left;
+  width: 100%;
+  height: 100px;
+}
+/* -------------------------------------------------- */
+/* 상단 : 탑 부분 */
+#h_top {
+  margin: 0 auto;
+  margin-top: 35px;
+  width: 1680px;
+  height: 35px;
+}
+#h_top .logo {
+  float: left;
+}
+
+#h_top .logo img {
+  width: 140px;
+  height: 35px;
+}
+#h_top .h_group {
+  float: right;
+  margin-top: 5px;
+}
+/* #h_top .h_group ul{
+} */
+#h_top .h_group ul li {
+  float: left;
+  margin-right: 15px;
+}
+#h_top .h_group ul li:last-child {
+  margin-right: 0;
+}
+
+#h_top .h_group ul li a img {
+  width: 30px;
+  height: 30px;
+}
+#h_top .h_group .menu_btn {
+  display: inline-block;
+  /* overflow: hidden; */
+  width: 28px;
+  height: 30px;
+}
+#h_top .h_group .menu_btn span {
+  display: block;
+  margin-bottom: 7px;
+  width: 28px;
+  border-bottom: 5px solid rgb(51, 51, 51);
+}
+#h_top .h_group .menu_btn span:last-child {
+  margin-bottom: 0;
+}
+
+/* 내용(contents) 부분----------------------------------------------------------------------------------------------------100 */
+/* 내용(contents) 부분 */
+#contents {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+#contents_box {
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+/* -------------------------------------------------- */
+/* 내용 : 아이템 부분 */
+#play {
+  float: left;
+  width: 100%;
+  height: auto;
+
+  border-bottom: 1px solid #000;
+}
+#play > h1 {
+  font-size: 40px;
+  margin: 0 0 50px 0;
+}
+#play > p {
+  margin-top: 100px;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 30px;
+  text-align: center;
+}
+#play > span {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 130px;
+  font-weight: 900;
+  text-align: center;
+  font-size: 35px;
+}
+#mission {
+  float: left;
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+}
+#mission > h2 {
+  margin: 0 0 0 10px;
+}
+#mission > div {
+  float: left;
+  margin: 10px;
+  width: 980px;
+  height: 300px;
+
+  display: table;
+}
+#mission > div > div {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 1.8;
+}
+#mission p {
+  font-size: 30px;
+}
+#values {
+  float: left;
+  margin-top: 40px;
+  width: 100%;
+  height: 600px;
+}
+#values > h2 {
+  margin: 0px 0 0 10px;
+}
+#values > div {
+  margin: 0 auto;
+  width: 980px;
+  height: auto;
+}
+#values > div > ul {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#values ul li {
+  width: 48%;
+  height: 250px;
+  margin: 1%;
+}
+#values ul li:nth-child(1) {
+  background: url(../images/value_1.PNG) no-repeat;
+}
+#values ul li:nth-child(2) {
+  background: url(../images/value_2.PNG) no-repeat;
+}
+#values ul li:nth-child(3) {
+  background: url(../images/value_3.PNG) no-repeat;
+}
+#values ul li:nth-child(4) {
+  background: url(../images/value_4.PNG) no-repeat;
+}
+
+#history {
+  float: left;
+  margin-top: 70px;
+  width: 100%;
+  height: auto;
+
+  border-bottom: 1px solid #000;
+}
+#history > h2 {
+  margin: 0px 0 20px 10px;
+}
+#history > div {
+  display: flex;
+  margin-bottom: 60px;
+}
+#history img {
+  height: 255px;
+}
+#awards {
+  float: left;
+  width: 100%;
+  height: 850px;
+}
+#awards > header {
+  margin-top: 40px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#awards > header > h2 {
+  font-size: 28px;
+}
+#awards > section {
+  width: 100%;
+  height: 600px;
+}
+#awards > section > ul {
+  float: left;
+  padding: 0;
+  margin-left: 25px;
+}
+#awards > section > ul > li {
+  float: left;
+  width: 200px;
+  margin-right: 50px;
+  margin-bottom: 40px;
+}
+#awards > section > ul > li:nth-child(4) {
+  margin-right: 0px;
+}
+#awards > section > ul > li > img {
+  border: 1px solid #eeeeee;
+}
+#awards > section > ul > li > p {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 900;
+  text-align: center;
+}
+/* 하단(footer) 부분----------------------------------------------------------------------------------------------------100 */
+/* 하단(footer) 부분 */
+#footer {
+  float: left;
+  width: 100%;
+  height: 530px;
+  background-color: rgb(29, 29, 29);
+}
+/* -------------------------------------------------- */
+/* 하단 : 탑 부분 */
+#f_top {
+  margin: 0 auto;
+  width: 1680px;
+  height: 80px;
+  background-color: darkolivegreen;
+}
+#f_top h2 {
+  margin: 10px 0 0 20px;
+  float: left;
+  width: 40px;
+  height: 40px;
+}
+#f_top h2 a img {
+  width: 100%;
+}
+#f_top .f_sns {
+  float: right;
+  margin-top: 30px;
+}
+
+#f_top .f_sns ul li {
+  margin-right: 20px;
+  float: left;
+  width: 25px;
+  height: 25px;
+}
+#f_top .f_sns ul li img {
+  width: 100%;
+}
+
+/* 하단 : 바텀 부분 */
+#f_bom {
+  margin: 0 auto;
+  width: 1680px;
+  height: 450px;
+  background-color: rgb(0, 0, 0);
+}
+#footer-section2 {
+  display: inline-block;
+  margin-bottom: 120px;
+}
+#footer-inner span {
+  display: inline-block;
+}
+.flt,
+.pull-left {
+  float: left !important;
+}
+.wp30 {
+  width: 30%;
+}
+#footer-section2 div {
+  display: inline-block;
+  width: 100%;
+}
+.centraFont {
+  font-family: "Centra No2";
+}
+.lh18 {
+  line-height: 18px;
+}
+.colFFF {
+  color: #fff;
+}
+
+.flt,
+.pull-left {
+  float: left !important;
+}
+.f14 {
+  font-size: 14px;
+}
+
+#footer-section2 div {
+  display: inline-block;
+  width: 100%;
+}
+.notoFont {
+  font-family: "Noto Sans KR";
+}
+.lh22 {
+  line-height: 22px;
+}
+.colFFF {
+  color: #fff;
+}
+.flt,
+.pull-left {
+  float: left !important;
+}
+.bld {
+  font-weight: bold;
+}
+.f15 {
+  font-size: 15px;
+}
+
+#footer-section2 div {
+  display: inline-block;
+  width: 100%;
+}
+.notoFont {
+  font-family: "Noto Sans KR";
+}
+.lh19 {
+  line-height: 19px !important;
+}
+.colFFF {
+  color: #fff;
+}
+.flt,
+.pull-left {
+  float: left !important;
+}
+.f13 {
+  font-size: 13px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #807f83;
+}
+.dpib {
+  display: inline-block;
+}
+.flt,
+.pull-left {
+  float: left !important;
+}
+.wp100 {
+  width: 100%;
+}
+
+/*------------*/
+element.style {
+  width: 60px;
+  height: 40px;
+  background-image: url(/img/footer/spclogo.png);
+}
+#footer-inner span {
+  display: inline-block;
+}
+
+#footer-inner span {
+  display: inline-block;
+}
+.flt,
+.pull-left {
+  float: left !important;
+}
+.wp70 {
+  width: 70%;
+}
+
+#footer-section2 div {
+  display: inline-block;
+  width: 100%;
+}
+.h55 {
+  height: 55px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.tdline {
+  text-decoration: underline !important;
+}
+.flt,
+.pull-left {
+  float: left !important;
+}
+.mgr74 {
+  margin-right: 74px;
+}
+.bld {
+  font-weight: bold;
+}
+
+#footer .subUl a {
+  font-family: "Centra No2", "Noto Sans KR";
+  font-weight: 400;
+  font-size: 13px;
+  color: #ffffff;
+}
+a:link {
+  text-decoration: none;
+}
+.fntClr_1a59ff {
+  color: #1a59ff !important;
+}
+.lh19 {
+  line-height: 19px !important;
+}
+a {
+  background: transparent;
+}
+/* 사용자 에이전트 스타일시트 */
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#footer-section2 div {
+  display: inline-block;
+  width: 100%;
+}
+
+.menuTitle {
+  float: left;
+  font-family: "Centra No2", "Noto Sans KR";
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 22px;
+  color: #fff;
+  height: 44px;
+  margin-right: 67px;
+}
+
+#footer .subUl a {
+  font-family: "Centra No2", "Noto Sans KR";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 30px;
+  color: #ffffff;
+}
+a {
+  background: transparent;
+}
+
+.mgt20 {
+  margin-top: 20px;
+}
+
+#footer .subUl a {
+  font-family: "Centra No2", "Noto Sans KR";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.centraFont {
+  font-family: "Centra No2";
+}
+.lh31 {
+  line-height: 31px;
+}
+.colFFF {
+  color: #fff;
+}
+.mgt20 {
+  margin-top: 20px;
+}
+.fwno {
+  font-weight: normal;
+}
+.f24 {
+  font-size: 24px;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+#footer-inner span {
+  display: inline-block;
+}
+.col999 {
+  color: #999;
+}
+
+.notoFont {
+  font-family: "Noto Sans KR";
+}
+.lh19 {
+  line-height: 19px !important;
+}
+.tdline {
+  text-decoration: underline !important;
+}
+.colFFF {
+  color: #fff;
+}
+.mgt20 {
+  margin-top: 20px;
+}
+.f13 {
+  font-size: 13px;
+}
